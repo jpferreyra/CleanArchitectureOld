@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -15,7 +15,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\CleanArchitecture.Aplication\CleanArchitecture.Aplication.csproj" />
+	  <ProjectReference Include="..\CleanArchitecture.Aplication\CleanArchitecture.Application.csproj" />
 	  <ProjectReference Include="..\CleanArchitecture.Identity\CleanArchitecture.Identity.csproj" />
 	  <ProjectReference Include="..\CleanArchitecture.Infrastructure\CleanArchitecture.Infrastructure.csproj" />
 	</ItemGroup>

@@ -21,7 +21,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\CleanArchitecture.Aplication\CleanArchitecture.Aplication.csproj" />
+		<ProjectReference Include="..\CleanArchitecture.Aplication\CleanArchitecture.Application.csproj" />
 		<ProjectReference Include="..\CleanArchitecture.Infrastructure\CleanArchitecture.Infrastructure.csproj" />
 	</ItemGroup>
 
