@@ -1,9 +1,8 @@
 ﻿using AutoMapper;
-using CleanArchitecture.Application.Contracts.Persistance;
 using CleanArchitecture.Application.Features.Products.Queries.GetProductsList;
 using CleanArchitecture.Application.Mappings;
 using CleanArchitecture.Infrastructure.Repositories;
-using CleanArchitecture.Infrastructure.Test.Mocks;
+using CleanArchitecture.XUnitTest.Mocks;
 using Moq;
 using Shouldly;
 using System.Collections.Generic;
@@ -11,7 +10,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace CleanArchitecture.Infrastructure.Test.Features.Products.Queries.GetProductsList
+namespace CleanArchitecture.XUnitTest.Features.Products.Queries.GetProductsList
 {
     public class GetProductsListQueryHandlerTest
     {
@@ -30,7 +29,7 @@ namespace CleanArchitecture.Infrastructure.Test.Features.Products.Queries.GetPro
 
             _unitOfWork = MockUnitOfWork.GetUnitOfWork();
 
-            MockProductRepository.AddDataRepository(_unitOfWork.Object.AppDbContext);    
+            MockProductRepository.AddDataRepository(_unitOfWork.Object.AppDbContext);
         }
 
         [Fact]

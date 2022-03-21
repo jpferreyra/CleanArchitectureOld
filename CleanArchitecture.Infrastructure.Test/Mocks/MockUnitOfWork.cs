@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Moq;
 using System;
 
-namespace CleanArchitecture.Infrastructure.Test.Mocks
+namespace CleanArchitecture.XUnitTest.Mocks
 {
     public static class MockUnitOfWork
     {

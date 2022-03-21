@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{84FFA44E-1E90-4B73-9B9A-6DBAD4867F0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infrastructure.Test", "CleanArchitecture.Infrastructure.Test\CleanArchitecture.Infrastructure.Test.csproj", "{5B862E92-4172-4624-A929-CDFE581DA155}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.XUnitTest", "CleanArchitecture.Infrastructure.Test\CleanArchitecture.XUnitTest.csproj", "{5B862E92-4172-4624-A929-CDFE581DA155}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

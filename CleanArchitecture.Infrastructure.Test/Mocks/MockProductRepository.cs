@@ -3,7 +3,7 @@ using CleanArchitecture.Domain;
 using CleanArchitecture.Infrastructure.Persistence;
 using System.Linq;
 
-namespace CleanArchitecture.Infrastructure.Test.Mocks
+namespace CleanArchitecture.XUnitTest.Mocks
 {
     public static class MockProductRepository
     {
